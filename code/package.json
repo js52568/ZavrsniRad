@@ -1,0 +1,32 @@
+{
+  "name": "sportingevents",
+  "version": "1.0.0",
+  "description": "App for organizing sporting events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js52568/SportingEvents.git"
+  },
+  "author": "Jura Slehan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/js52568/SportingEvents/issues"
+  },
+  "homepage": "https://github.com/js52568/SportingEvents#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.2.10",
+    "mongoose-findorcreate": "^3.0.0",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.0.0"
+  }
+}
